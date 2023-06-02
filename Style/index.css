@@ -14,10 +14,12 @@ body {
 
 header {
     /* background-color: aqua; */
+    background-color: #040404;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 5%;
+    width: 100%;
 }
 
 .heading h1 {
@@ -58,6 +60,10 @@ header {
 
 .one {
     background-color: #040404;
+    width: 100%;
+}
+
+.section1 {
     display: flex;
     justify-content: space-between;
 }
@@ -84,7 +90,6 @@ header {
 .B {
     width: 43px;
     height: 32px;
-    /* transform: rotate(-90deg); */
     font-family: open sans;
     font-weight: 400;
     line-height: 175%;
@@ -94,7 +99,6 @@ header {
 .G {
     width: 43px;
     height: 32px;
-    /* transform: rotate(-90deg); */
     font-family: open sans;
     font-weight: 400;
     line-height: 175%;
@@ -106,7 +110,6 @@ header {
     font-weight: 700;
     font-size: 13px;
     line-height: 130%;
-    /* padding-top: 15px */
 }
 
 .Key {
@@ -156,7 +159,6 @@ button {
     width: 60%;
     padding-top: 50px;
     margin-left: 150px;
-    /* align-items: center; */
 }
 
 .bottom {
@@ -176,7 +178,7 @@ button {
 }
 
 .two {
-    /* margin: 85px; */
+    width: 100%;
     display: flex;
     justify-content: space-between;
     justify-content: center;
@@ -187,16 +189,17 @@ button {
     height: 100vh;
     display: flex;
     justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    /* padding: 120px 150px; */
     position: relative;
 }
 
 .left1 {
     /* background-color: aqua; */
     text-align: right;
-    width: 50%;
+    width: 100%;
     margin-right: 130px;
+    z-index: 1;
 }
 
 .about {
@@ -215,6 +218,7 @@ button {
 }
 
 .pgraph2 {
+    /* background-color: aqua; */
     font-family: open sans;
     font-weight: 400;
     font-size: 13px;
@@ -227,26 +231,38 @@ button {
     margin-top: 21px
 }
 
+.GG {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+
 .GGpic {
     position: absolute;
     width: 30%;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
     margin-right: 90px;
 }
 
+.knive {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .knivepic {
-    width: 6%;
+    width: 7%;
     position: absolute;
-    padding-bottom: 100px;
+
+    z-index: 2;
 }
 
 .right1 {
     text-align: left;
     /* background-color: aqua; */
-    width: 50%;
-    margin-left: 130px;
+    width: 100%;
+    margin-left: 70px;
+    z-index: 1;
 }
 
 .history {
@@ -264,6 +280,8 @@ button {
 }
 
 .pgraph3 {
+    /* background-color: aqua; */
+    width: 110%;
     font-family: open sans;
     font-weight: 400;
     font-size: 13px;
@@ -274,6 +292,7 @@ button {
 
 .three {
     background-color: #040404;
+    width: 100%;
 }
 
 .section3 {
@@ -366,6 +385,7 @@ button {
 
 .four {
     background-image: url(../BG.png);
+    width: 100%;
 }
 
 .section4 {
@@ -436,6 +456,10 @@ button {
     width: 60%;
 }
 
+.five {
+    width: 100%;
+}
+
 .vid {
     width: 100%;
 }
@@ -444,6 +468,7 @@ button {
     background-image: url(../BG.png);
     /* background-color: aqua; */
     margin-top: -0.5%;
+    width: 100%;
 }
 
 .sid6 {
@@ -491,7 +516,6 @@ button {
     /* background-color: aqua; */
     width: 100%;
     display: flex;
-    /* justify-content: space-between; */
 }
 
 .two66 {
@@ -539,3 +563,241 @@ button {
 .grp43 {
     width: 60%;
 }
+
+.seven {
+    background-image: url(../Mask\ Group.png);
+    width: 100%;
+}
+
+.section7 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left7 {
+    /* background-color: aqua; */
+    width: 60%;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.IG {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+}
+
+.h7 {
+    margin-top: -1px;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    color: #DCCA87;
+}
+
+.T7 {
+    margin-top: -20px;
+    font-family: "open sans";
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+}
+
+.photos7 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button7 {
+    margin-top: -10px;
+    width: 100px;
+    height: 20px;
+    border: none;
+    font-family: cormorant upright;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #0C0B08;
+}
+
+.img7 {
+    padding-top: 50px;
+    padding-left: 50px;
+    width: 25%;
+    height: 95%;
+}
+
+.eight {
+    background-image: url(../BG\ \(3\).png);
+    width: 100%;
+}
+
+.section8 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px 150px 150px 300px;
+}
+
+.left8 {
+    /* background-color: aqua; */
+    width: 100%;
+}
+
+.contact {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+}
+
+.h8 {
+    margin-top: -1px;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    color: #DCCA87;
+}
+
+.T8 {
+    font-family: "open sans";
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+}
+
+.openhrs {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    color: #DCCA87;
+}
+
+.DAT {
+    font-family: "open sans";
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+}
+
+.pic8 {
+    width: 90%;
+}
+
+.nine {
+    position: absolute;
+    background-color: #040404;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0% 20%;
+    border: 1px solid rgba(220, 202, 135, 0.2);
+    box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.section9 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.cntr9 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.email {
+    margin-top: 4%;
+    width: 75%;
+    height: 40px;
+    padding-left: 15px;
+    font-family: "cormorant upright";
+    color: #AAAAAA;
+    background-color: #0C0C0C;
+    border: 1px solid #F5EFDB;
+}
+
+footer {
+    background-image: url(../BG\ \(4\).png);
+    position: absolute;
+    width: 100%;
+    margin-top: -5%;
+}
+
+.BTT {
+    /* background-color: aqua; */
+    text-align: right;
+    padding-top: 50px;
+    margin-right: 5%;
+}
+
+.section10 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 150px;
+}
+
+.contact10 {
+    font-family: "cormorant upright";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    color: #F5EFDB;
+}
+
+.DAT10 {
+    font-family: "open sans";
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+}
+
+.text10 {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    font-family: "open sans";
+}
+
+.pgh10 {
+    font-family: "open sans";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+    padding-top: 20%;
+}
+
+.Text10 {
+    /* background-color: aqua; */
+    margin-top: -150px;
+}
+
+
+@media screen and (max-width: 576px) {}
