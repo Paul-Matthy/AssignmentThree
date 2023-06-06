@@ -889,7 +889,7 @@ footer {
 
     .dropdown {
         background-color: #DCCA87;
-        display: none;
+        display: block;
         position: absolute;
         top: 9%;
         right: 0;
